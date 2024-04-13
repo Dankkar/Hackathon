@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="inner-header container">
+          <a href="" id="logo">Shmily</a>
+          <nav>
+            <ul id="main-menu">
+              <li><a href="">Home</a></li>
+              <li><a href="">Sản Phẩm</a></li>
+              <li><a href="">Liên hệ</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div id="banner"></div>
+      <div id="content" class="container">
+        <h1>TEST THU WEB KHI CHAY</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eius
+          corrupti quis expedita impedit aliquam illum tempore ad eligendi
+          facere autem facilis odio nobis, sint ipsam consectetur, nulla nisi
+          sed harum exercitationem mollitia ullam cumque. Deserunt voluptates
+          unde accusantium, repellendus eaque ut aspernatur maiores autem earum
+          ipsam recusandae! Provident modi unde cumque quam culpa architecto sit
+          delectus, cum, totam neque, nostrum a iusto fuga quisquam!
+          Necessitatibus nisi quas quasi quod totam quaerat natus debitis dolor
+          accusantium aliquid inventore, neque similique quae possimus sint
+          vitae incidunt dolorem enim ut! Pariatur dolore totam deserunt tempora
+          tempore quidem ea ut cupiditate, aut optio.
+        </p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop()) {
+            $("header").addClass("sticky");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
