@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    />
   </head>
   <body>
     <div id="wrapper">
@@ -16,14 +20,14 @@
               <li><a href="">Giới thiệu</a></li>
               <li><a href="#">Home</a></li>
               <li>
-                <a href="/Sanpham.html">Sản Phẩm</a>
+                <a href="">Sản Phẩm</a>
                 <ul class="sub-menu">
-                  <li><a href=""></a>Image 1</li>
-                  <li><a href=""></a>Image 2</li>
-                  <li><a href=""></a>Image 3</li>
+                  <li><a href="">Game 1</a></li>
+                  <li><a href="">Game 2</a></li>
+                  <li><a href="">Game 3</a></li>
                 </ul>
               </li>
-              <li><a href="/lienhe.html">Liên hệ</a></li>
+              <li><a href="">Liên hệ</a></li>
             </ul>
           </nav>
         </div>
@@ -37,21 +41,21 @@
             src="https://th.bing.com/th/id/R.3f361912e92ef1e00a301b1c5981e72e?rik=GOY0haWuhsYqyg&pid=ImgRaw&r=0"
             alt="Image 1"
           />
-          <div class="image-description">Description for image 1</div>
+          <div class="image-description">Game 1</div>
         </div>
         <div class="image-box" id="box2">
           <img
             src="https://th.bing.com/th/id/R.3f361912e92ef1e00a301b1c5981e72e?rik=GOY0haWuhsYqyg&pid=ImgRaw&r=0"
             alt="Image 2"
           />
-          <div class="image-description">Description for image 2</div>
+          <div class="image-description">Game 2</div>
         </div>
         <div class="image-box" id="box3">
           <img
             src="https://th.bing.com/th/id/R.3f361912e92ef1e00a301b1c5981e72e?rik=GOY0haWuhsYqyg&pid=ImgRaw&r=0"
             alt="Image 3"
           />
-          <div class="image-description">Description for image 3</div>
+          <div class="image-description">Game 3</div>
         </div>
       </div>
     </div>
@@ -59,6 +63,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script>
       $(document).ready(function () {
+        $(".sub-menu").parent("li").addClass("has-child");
         $(window).scroll(function () {
           if ($(this).scrollTop()) {
             $("header").addClass("sticky");
