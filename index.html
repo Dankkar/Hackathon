@@ -10,34 +10,52 @@
     <div id="wrapper">
       <header>
         <div class="inner-header container">
-          <a href="" id="logo">Shmily</a>
+          <a href="#" id="logo">Shmily</a>
           <nav>
             <ul id="main-menu">
-              <li><a href="">Home</a></li>
-              <li><a href="">Sản Phẩm</a></li>
-              <li><a href="">Liên hệ</a></li>
+              <li><a href="">Giới thiệu</a></li>
+              <li><a href="#">Home</a></li>
+              <li>
+                <a href="/Sanpham.html">Sản Phẩm</a>
+                <ul class="sub-menu">
+                  <li><a href=""></a>Image 1</li>
+                  <li><a href=""></a>Image 2</li>
+                  <li><a href=""></a>Image 3</li>
+                </ul>
+              </li>
+              <li><a href="/lienhe.html">Liên hệ</a></li>
             </ul>
           </nav>
         </div>
       </header>
       <div id="banner"></div>
-      <div id="content" class="container">
-        <h1>TEST THU WEB KHI CHAY</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe eius
-          corrupti quis expedita impedit aliquam illum tempore ad eligendi
-          facere autem facilis odio nobis, sint ipsam consectetur, nulla nisi
-          sed harum exercitationem mollitia ullam cumque. Deserunt voluptates
-          unde accusantium, repellendus eaque ut aspernatur maiores autem earum
-          ipsam recusandae! Provident modi unde cumque quam culpa architecto sit
-          delectus, cum, totam neque, nostrum a iusto fuga quisquam!
-          Necessitatibus nisi quas quasi quod totam quaerat natus debitis dolor
-          accusantium aliquid inventore, neque similique quae possimus sint
-          vitae incidunt dolorem enim ut! Pariatur dolore totam deserunt tempora
-          tempore quidem ea ut cupiditate, aut optio.
-        </p>
+      <div id="content" class="container"></div>
+
+      <div class="image-box-container">
+        <div class="image-box" id="box1">
+          <img
+            src="https://th.bing.com/th/id/R.3f361912e92ef1e00a301b1c5981e72e?rik=GOY0haWuhsYqyg&pid=ImgRaw&r=0"
+            alt="Image 1"
+          />
+          <div class="image-description">Description for image 1</div>
+        </div>
+        <div class="image-box" id="box2">
+          <img
+            src="https://th.bing.com/th/id/R.3f361912e92ef1e00a301b1c5981e72e?rik=GOY0haWuhsYqyg&pid=ImgRaw&r=0"
+            alt="Image 2"
+          />
+          <div class="image-description">Description for image 2</div>
+        </div>
+        <div class="image-box" id="box3">
+          <img
+            src="https://th.bing.com/th/id/R.3f361912e92ef1e00a301b1c5981e72e?rik=GOY0haWuhsYqyg&pid=ImgRaw&r=0"
+            alt="Image 3"
+          />
+          <div class="image-description">Description for image 3</div>
+        </div>
       </div>
     </div>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script>
       $(document).ready(function () {
