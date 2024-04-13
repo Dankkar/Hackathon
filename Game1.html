@@ -35,9 +35,50 @@
         </div>
       </header>
       <div id="banner"></div>
-      <div id="content" class="container"></div>
+      <div class="back-btn">
+        <div class="make-circle">
+          <a href="./index.html"><i class="back bx bx-left-arrow-alt"></i></a>
+        </div>
+      </div>
+      <div class="get-start">
+        <div class="computer">
+          <div class="video-container">
+            <video
+              id="myVideo"
+              width="1040px"
+              height="460px"
+              controls
+              autoplay
+              loop
+              muted
+            >
+              <source src="./img/vid_password.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <div class="enter-and-submit">
+              <input
+                type="password"
+                id="passwordInput"
+                name="passwordInput"
+                placeholder="Enter your password"
+              />
+              <button
+                type="button"
+                class="btn-submit"
+                onclick="retrievePassword()"
+              >
+                Submit
+              </button>
+              <p id="passwordOutput"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <script src=".script_level1.js"></script> -->
     </div>
-    <script src="js/script.js"></script>
+    <script src="popup.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script>
       $(document).ready(function () {

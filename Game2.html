@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+p<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -35,9 +35,21 @@
         </div>
       </header>
       <div id="banner"></div>
-      <div id="content" class="container"></div>
+      <div id="content" class="container">
+        <div class="image-box1">
+          <img src="anh.png" alt="anh1" class="anh1" />
+          <div class="image-box2" id="box1"></div>
+          <div class="image-box2" id="box2"></div>
+          <p class="text" style="position: absolute; top: 20%; left: 27.5%">
+            Remember the information from the images you see on the screen.
+            Analyze which websites and email addresses are real.
+          </p>
+        <button id="choice1">Choice 1</button>
+        <button id="choice2">Choice 2</button>
+        <p id="score">Score: 0</p>
+      </div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script>
       $(document).ready(function () {
@@ -49,5 +61,6 @@
         });
       });
     </script>
+    
   </body>
 </html>
