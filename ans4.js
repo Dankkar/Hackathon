@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     wrongButton.addEventListener('click', function() {
-        alert("Rất tiếc, đó là câu trả lời sai.");
         wrongButton.style.backgroundColor = 'red';
+        alert("Rất tiếc, đó là câu trả lời sai.");
         window.location.href = '/index.html';
     });
 });
