@@ -37,41 +37,23 @@
           </nav>
         </div>
       </header>
-      <div id="banner"></div>
       <div class="back-btn">
         <div class="make-circle">
           <a href="./index.html"><i class="back bx bx-left-arrow-alt"></i></a>
         </div>
       </div>
-      <div class="get-start">
-        <div class="computer">
-          <div class="video-container">
-            <video
-              id="myVideo"
-              width="1040px"
-              height="460px"
-              controls
-              autoplay
-              loop
-              muted
-            >
-              <source src="/video/vid_password.mp4" type="video/mp4" />
-            </video>
-            <div class="enter-and-submit">
-              <input
-                type="password"
-                id="passwordInput"
-                name="passwordInput"
-                placeholder="Enter your password"
-              />
-              <button
-                type="button"
-                class="btn-submit"
-                onclick="retrievePassword()"
-              >
-                Submit
+      <div class="get-start2">
+        <div class="computer2">
+          <div class="img-container">
+            <img class="image-container" src="img/3.png" alt="anh1" />
+
+            <div class="ans-button">
+              <button type="button" class="ans1" id="wrong-answer">
+                Câu trả lời 1
               </button>
-              <p id="passwordOutput"></p>
+              <button type="button" class="ans2" id="correct-answer">
+                Câu trả lời 2
+              </button>
             </div>
           </div>
         </div>
@@ -90,5 +72,6 @@
         });
       });
     </script>
+    <script src="ans3.js"></script>
   </body>
 </html>

@@ -18,8 +18,24 @@ ul{
     font-weight: bold;
     font-size: 1.5rem;
 }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 a{
     text-decoration: none;
+}
+.image-container{
+    width: 100%;
+    height: 100%;
 }
 #content h1 {
     padding: 30px 0px;
@@ -44,11 +60,7 @@ a{
     transform: translate(-50%, -50%);
 
 }
-.anh1 {
-    width: 100%;
-    height: 100%;
-    vertical-align: center;
-}
+
 
 @keyframes blink-caret {
     from, to {
@@ -58,7 +70,6 @@ a{
         border-color: black;
     }
 }
-
 
 
 .inner-header{
@@ -287,4 +298,41 @@ a .back {
     top: 40%;
     left: 56%;
     display: none;
+}
+
+.img-container img{
+    position: relative;
+}
+
+.ans-button {
+    position: absolute;
+    top: 60%; 
+    left: 49%; 
+    transform: translate(-50%, -50%); 
+}
+
+.ans-button .ans1 {
+    margin-top: 178px;
+    margin-right: 257px;
+}
+
+.ans-button .ans2 {
+    margin-top: 178px;
+    margin-left: 101px;
+}
+
+.ans-button button {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ans-button button:hover {
+    cursor: pointer;
+    background-color: rgb(5, 232, 95);
+    
 }
