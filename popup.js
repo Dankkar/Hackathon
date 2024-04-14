@@ -35,9 +35,9 @@ function retrievePassword() {
 
     // Hiển thị thông báo
     if(passwordValid) {
-        alert("Mật khẩu hợp lệ");
+        alert("XIN CHÚC MỪNG, NHIỆM VỤ CỦA BẠN ĐÃ THÀNH CÔNG !!! \nHÃY PHÁT HUY TIẾP NHÉ ^.^   ");
     } else {
-        alert("Mật khẩu không hợp lệ. Vui lòng kiểm tra lại:\n" + missingElements);
+        alert("MẬT KHẨU CỦA BẠN ĐÃ BỊ HACKER PHÁ HỦY:\n" + missingElements);
     }
 
 

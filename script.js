@@ -43,4 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
         animateText(elements[0]);
     }
 });
-
+setTimeout(function () {
+    const enterAndSubmitElement = document.querySelector('.enter-and-submit');
+    enterAndSubmitElement.style.display = 'block';
+  }, 10500);

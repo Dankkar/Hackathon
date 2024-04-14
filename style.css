@@ -35,23 +35,7 @@ a{
     margin: 0px auto;
     max-width: 960px;   
 }
-.text {
-    color: #00FF12;
-    font-size: 11px;
-    line-height: 1.5;
-    font-weight: bold;
-    text-align: left;
-    animation: typing 4s steps(1000, end), blink-caret 0.75s step-end infinite;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-}
-.text1{
-    color: #00FF12;
-    font-size: 11px;
-    line-height: 1.5;
-    font-weight: bold;
-    text-align: left;
-}
+
 #need {
     display: none;
     position: absolute;
@@ -163,7 +147,8 @@ header.sticky #logo{
     background: rgba(0, 0, 0, 0.6); 
     color: #fff;
     padding: 10px;
-    text-align: left;
+    align-content: center;
+    text-align: center;
 }
 #main-menu li{
     position: relative;
@@ -245,7 +230,7 @@ a .back {
 
 .video-container {
     border: none;
-    position: relative; /* Enable relative positioning for the container */
+    position: relative; 
   }
   
   video {
@@ -266,10 +251,10 @@ a .back {
 
   #passwordInput {
     position: absolute; 
-    top: 40%; /* Position the input 50% from the top */
-    left: 48%; /* Position the input 50% from the left */
-    transform: translate(-50%, -50%); /* Center the input horizontally and vertically */
-    z-index: 1; /* Place the input above the video */
+    top: 40%; 
+    left: 48%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
     background-color: #fff;
     border-color: rgb(5, 232, 95);
     border-radius: 4px;
@@ -296,4 +281,10 @@ a .back {
 }
 .play-btn button:hover{
     cursor: pointer;
+}
+.enter-and-submit {
+    position: absolute;
+    top: 40%;
+    left: 56%;
+    display: none;
 }
